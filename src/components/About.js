@@ -25,10 +25,10 @@ const About = () => {
                 <div className="about-info">
                     <h1>Hi There</h1>
                     <div className="about-info-p1">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, exercitationem temporibus! Eligendi neque eveniet saepe voluptate itaque fugiat ad nobis iure porro mollitia, dicta sint voluptatem tenetur obcaecati, explicabo beatae.
+                        My self Md Shohag Babu. I am a junior font-end developer. I am passionate to work with React, firebase, javascript and Html5. I am familiar to work with Redux, Rjx, scss, MongoDB. I like to coding and my dream is make my self as a professional web developer.
                     </div>
                     <div className="about-info-p2">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse expedita nostrum ullam quia nam facilis!
+                        I like to work with vs code, chrome dev tool, Git and Postman tools.
                     </div>
                     <div className="info-context">
                         <div className="row">

@@ -19,7 +19,7 @@ const Projects = () => {
             id:1,
             img:creativeAgency,
             heading:"Creative Agency",
-            text:"This specification does not indicate the behavior, rendering or otherwise, of space characters other than those explicitly identified here as white space characters.",
+            text:"This is an online service basis single page web application. In this application Google login system is used for users to registered for take service. There is a users feedback feature is used for taking feedback from user",
             githubLink:"https://github.com/SShohag/creative-agency",
             websiteLink:"https://volunteer-webbing.web.app/"
         },
@@ -27,7 +27,7 @@ const Projects = () => {
             id:2,
             img:volunteerNetwork,
             heading:"Volunteer Network",
-            text:"This specification does not indicate the behavior, rendering or otherwise, of space characters other than those explicitly identified here as white space characters.",
+            text:"This is a volunteers feedback website. Where user can give their comment to comment box.They can add their chooses option and also they can delete their option by sign in with google account",
             githubLink:"https://github.com/SShohag/volunteer-network",
             websiteLink:"https://volunteer-webbing.web.app/"  
         },
@@ -35,7 +35,7 @@ const Projects = () => {
             id:3,
             img:travelGuru,
             heading:"Travel Guru",
-            text:"This specification does not indicate the behavior, rendering or otherwise, of space characters other than those explicitly identified here as white space characters.",
+            text:"This application is make for online hotel booking. In this application google map system is use to travel one place to another place. There is also add a feature to create user by react from",
             githubLink:"https://github.com/SShohag/bd-travel-guru",
             websiteLink:"https://bd-travel-guru.web.app/"  
         },
