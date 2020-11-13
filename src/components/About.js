@@ -38,7 +38,7 @@ const About = () => {
                             </div>
                             <div className="col-6">
                                 <strong>Github</strong>
-                                <p> <a href="https://github.com/SShohag">Github</a> </p>
+                                <p> <a className="aboutBtn" target="_blank|_self|_parent|_top|" href="https://github.com/SShohag">Github</a> </p>
                             </div>
                             <div className="col-6">
                                 <strong>Phone</strong>
@@ -46,7 +46,7 @@ const About = () => {
                             </div>
                             <div className="col-6">
                                 <strong>LinkedIn</strong>
-                                <p> <a href="https://www.linkedin.com/in/md-shohag-babu-2255a61b1/">LinkedIn</a></p>
+                                <p> <a className="aboutBtn" target="_blank|_self|_parent|_top|" href="https://www.linkedin.com/in/md-shohag-babu-2255a61b1/">LinkedIn</a></p>
                             </div>
                         </div>
                     </div>

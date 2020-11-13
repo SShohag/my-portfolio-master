@@ -19,7 +19,7 @@ const Projects = () => {
             id:1,
             img:creativeAgency,
             heading:"Creative Agency",
-            text:"This is an online service basis single page web application. In this application Google login system is used for users to registered for take service. There is a users feedback feature is used for taking feedback from user",
+            text:"This is an online service basis single page web application. In this application Google login system is used for users to take service. User feedback feature is used for taking feedback from user",
             githubLink:"https://github.com/SShohag/creative-agency",
             websiteLink:"https://volunteer-webbing.web.app/"
         },
@@ -87,8 +87,8 @@ const Projects = () => {
                       {info.text}
                     </div>
                     <div className="projects-box-btn">
-                          <a href={info.githubLink} className="btn btn-outline link-btn">Github <FaGithub /> </a>
-                          <a href={info.websiteLink} className="btn btn-outline link-btn">Live Link <FaLink /> </a>
+                          <a target="_blank|_self|_parent|_top|" href={info.githubLink} className="btn btn-outline link-btn">Github <FaGithub /> </a>
+                          <a target="_blank|_self|_parent|_top|" href={info.websiteLink} className="btn btn-outline link-btn">Live Link <FaLink /> </a>
                     </div>
                   </div>
                 </div>

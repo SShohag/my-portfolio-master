@@ -8,17 +8,43 @@ import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import NoMatch from './images/NoMatch';
+
 function App() {
   return (
-    <div className="App">
-      <Banner/>
-      <Nav/>
-      <Projects/>
-      <About/>
-      <Blog></Blog>
-      <Contact/>
+    <Router>
+      <Nav />
+      <Switch>
+        <Route path="/home">
+          <Banner/>
+        </Route>
+        <Route exact path="/">
+          <Banner/>
+        </Route>
+        <Route path="/project">
+          <Projects/>
+        </Route>
+        <Route path="/about">
+          <About/>
+        </Route>
+        <Route path="/blog">
+          <Blog/>
+        </Route>
+        <Route path="/contact">
+          <Contact/>
+        </Route>
+        <Route path="*">
+          <NoMatch/>
+        </Route>
+      </Switch>
       <Footer/>
-    </div>
+    </Router>
+    
   );
 }
 

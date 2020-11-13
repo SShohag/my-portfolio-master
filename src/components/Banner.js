@@ -18,19 +18,19 @@ const Banner = () => {
                 <div className="header-section">
                     <ul className="header-ul">
                         <li>
-                            <a style={{color:'white'}} href="https://www.linkedin.com/in/md-shohag-babu-2255a61b1/"><FaLinkedinIn /></a>
+                            <a target="_blank|_self|_parent|_top|" style={{color:'white'}} href="https://www.linkedin.com/in/md-shohag-babu-2255a61b1/"><FaLinkedinIn /></a>
                         </li>
                         <li>
-                            <a style={{color:'white'}} href="https://github.com/SShohag"><FaGithub /></a>
+                            <a target="_blank|_self|_parent|_top|" style={{color:'white'}} href="https://github.com/SShohag"><FaGithub /></a>
                         </li>
                         <li>
-                            <a style={{color:'white'}} href="https://www.facebook.com/shohag.symon.5"><FaFacebookF /></a>
+                            <a target="_blank|_self|_parent|_top|" style={{color:'white'}} href="https://www.facebook.com/shohag.symon.5"><FaFacebookF /></a>
                         </li>
                     </ul>
-                    <h1>{state.title}</h1>
+                    <h1 className="myGreeting">Hello this is <br/> <span className="myName" >Shohag</span> </h1>
                     <p>{state.text}</p>
                     <div className="header-btn">
-                        <a href={resume} className="btn btn-outline" >My Resume <FaFileDownload/> </a>
+                        <a target="_blank|_self|_parent|_top|" href={resume} className="btn btn-outline" >My Resume <FaFileDownload/> </a>
                     </div>
                 </div>
             </div>
